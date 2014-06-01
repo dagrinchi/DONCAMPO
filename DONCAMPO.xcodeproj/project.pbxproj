@@ -15,6 +15,7 @@
 		63383779193B3EDC00838001 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383776193B3EDC00838001 /* folder.png */; };
 		6338377A193B3EDC00838001 /* papers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383777193B3EDC00838001 /* papers.png */; };
 		6338377C193B3F8100838001 /* aprende.png in Resources */ = {isa = PBXBuildFile; fileRef = 6338377B193B3F8100838001 /* aprende.png */; };
+		6338377F193B5A7600838001 /* C4COrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338377E193B5A7600838001 /* C4COrderViewController.m */; };
 		63D78A9D193A6AF40022E01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9C193A6AF40022E01B /* Foundation.framework */; };
 		63D78A9F193A6AF40022E01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9E193A6AF40022E01B /* CoreGraphics.framework */; };
 		63D78AA1193A6AF40022E01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78AA0193A6AF40022E01B /* UIKit.framework */; };
@@ -53,6 +54,8 @@
 		63383776193B3EDC00838001 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder.png; path = ../../Desktop/folder.png; sourceTree = "<group>"; };
 		63383777193B3EDC00838001 /* papers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = papers.png; path = ../../Desktop/papers.png; sourceTree = "<group>"; };
 		6338377B193B3F8100838001 /* aprende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aprende.png; path = ../../Desktop/aprende.png; sourceTree = "<group>"; };
+		6338377D193B5A7600838001 /* C4COrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4COrderViewController.h; sourceTree = "<group>"; };
+		6338377E193B5A7600838001 /* C4COrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4COrderViewController.m; sourceTree = "<group>"; };
 		63D78A99193A6AF40022E01B /* DONCAMPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DONCAMPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D78A9C193A6AF40022E01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63D78A9E193A6AF40022E01B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +153,8 @@
 				63D78ACB193A6B390022E01B /* Main.storyboard */,
 				63383764193AA26600838001 /* C4CMapViewController.h */,
 				63383765193AA26600838001 /* C4CMapViewController.m */,
+				6338377D193B5A7600838001 /* C4COrderViewController.h */,
+				6338377E193B5A7600838001 /* C4COrderViewController.m */,
 			);
 			path = DONCAMPO;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6338377F193B5A7600838001 /* C4COrderViewController.m in Sources */,
 				63D78AA9193A6AF40022E01B /* main.m in Sources */,
 				63383766193AA26600838001 /* C4CMapViewController.m in Sources */,
 				63D78AAD193A6AF40022E01B /* C4CAppDelegate.m in Sources */,
