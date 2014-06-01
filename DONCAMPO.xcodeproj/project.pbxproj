@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63383763193AA12C00838001 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63383762193AA12C00838001 /* MapKit.framework */; };
+		63383766193AA26600838001 /* C4CMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63383765193AA26600838001 /* C4CMapViewController.m */; };
+		63383768193AC91200838001 /* sandia2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63383767193AC91200838001 /* sandia2.jpg */; };
+		63383774193B3E5400838001 /* calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383773193B3E5400838001 /* calc.png */; };
+		63383778193B3EDC00838001 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383775193B3EDC00838001 /* box.png */; };
+		63383779193B3EDC00838001 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383776193B3EDC00838001 /* folder.png */; };
+		6338377A193B3EDC00838001 /* papers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383777193B3EDC00838001 /* papers.png */; };
+		6338377C193B3F8100838001 /* aprende.png in Resources */ = {isa = PBXBuildFile; fileRef = 6338377B193B3F8100838001 /* aprende.png */; };
 		63D78A9D193A6AF40022E01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9C193A6AF40022E01B /* Foundation.framework */; };
 		63D78A9F193A6AF40022E01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9E193A6AF40022E01B /* CoreGraphics.framework */; };
 		63D78AA1193A6AF40022E01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78AA0193A6AF40022E01B /* UIKit.framework */; };
@@ -36,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63383762193AA12C00838001 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63383764193AA26600838001 /* C4CMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4CMapViewController.h; sourceTree = "<group>"; };
+		63383765193AA26600838001 /* C4CMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4CMapViewController.m; sourceTree = "<group>"; };
+		63383767193AC91200838001 /* sandia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sandia2.jpg; path = ../../Downloads/sandia2.jpg; sourceTree = "<group>"; };
+		63383773193B3E5400838001 /* calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calc.png; path = ../../Desktop/calc.png; sourceTree = "<group>"; };
+		63383775193B3EDC00838001 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box.png; path = ../../Desktop/box.png; sourceTree = "<group>"; };
+		63383776193B3EDC00838001 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder.png; path = ../../Desktop/folder.png; sourceTree = "<group>"; };
+		63383777193B3EDC00838001 /* papers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = papers.png; path = ../../Desktop/papers.png; sourceTree = "<group>"; };
+		6338377B193B3F8100838001 /* aprende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aprende.png; path = ../../Desktop/aprende.png; sourceTree = "<group>"; };
 		63D78A99193A6AF40022E01B /* DONCAMPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DONCAMPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D78A9C193A6AF40022E01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63D78A9E193A6AF40022E01B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63383763193AA12C00838001 /* MapKit.framework in Frameworks */,
 				63D78A9F193A6AF40022E01B /* CoreGraphics.framework in Frameworks */,
 				63D78AA1193A6AF40022E01B /* UIKit.framework in Frameworks */,
 				63D78A9D193A6AF40022E01B /* Foundation.framework in Frameworks */,
@@ -85,6 +103,12 @@
 		63D78A90193A6AF40022E01B = {
 			isa = PBXGroup;
 			children = (
+				6338377B193B3F8100838001 /* aprende.png */,
+				63383775193B3EDC00838001 /* box.png */,
+				63383776193B3EDC00838001 /* folder.png */,
+				63383777193B3EDC00838001 /* papers.png */,
+				63383773193B3E5400838001 /* calc.png */,
+				63383767193AC91200838001 /* sandia2.jpg */,
 				63D78ACF193A6F9F0022E01B /* home_farmer1.png */,
 				63D78AD0193A6F9F0022E01B /* home_farmer2.png */,
 				63D78ACD193A6DED0022E01B /* logo-preview.png */,
@@ -107,6 +131,7 @@
 		63D78A9B193A6AF40022E01B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63383762193AA12C00838001 /* MapKit.framework */,
 				63D78A9C193A6AF40022E01B /* Foundation.framework */,
 				63D78A9E193A6AF40022E01B /* CoreGraphics.framework */,
 				63D78AA0193A6AF40022E01B /* UIKit.framework */,
@@ -123,6 +148,8 @@
 				63D78AAE193A6AF40022E01B /* Images.xcassets */,
 				63D78AA3193A6AF40022E01B /* Supporting Files */,
 				63D78ACB193A6B390022E01B /* Main.storyboard */,
+				63383764193AA26600838001 /* C4CMapViewController.h */,
+				63383765193AA26600838001 /* C4CMapViewController.m */,
 			);
 			path = DONCAMPO;
 			sourceTree = "<group>";
@@ -232,12 +259,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6338377A193B3EDC00838001 /* papers.png in Resources */,
 				63D78AD1193A6F9F0022E01B /* home_farmer1.png in Resources */,
 				63D78ACC193A6B390022E01B /* Main.storyboard in Resources */,
+				63383768193AC91200838001 /* sandia2.jpg in Resources */,
+				63383778193B3EDC00838001 /* box.png in Resources */,
+				6338377C193B3F8100838001 /* aprende.png in Resources */,
 				63D78AA7193A6AF40022E01B /* InfoPlist.strings in Resources */,
 				63D78AAF193A6AF40022E01B /* Images.xcassets in Resources */,
 				63D78AD2193A6F9F0022E01B /* home_farmer2.png in Resources */,
+				63383774193B3E5400838001 /* calc.png in Resources */,
 				63D78ACE193A6DED0022E01B /* logo-preview.png in Resources */,
+				63383779193B3EDC00838001 /* folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D78AA9193A6AF40022E01B /* main.m in Sources */,
+				63383766193AA26600838001 /* C4CMapViewController.m in Sources */,
 				63D78AAD193A6AF40022E01B /* C4CAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +490,7 @@
 				63D78AC7193A6AF40022E01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D78AC8193A6AF40022E01B /* Build configuration list for PBXNativeTarget "DONCAMPOTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +499,7 @@
 				63D78ACA193A6AF40022E01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
