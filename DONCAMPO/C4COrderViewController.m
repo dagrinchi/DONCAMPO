@@ -53,13 +53,21 @@
     
     NSData *oResponseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&responseCode error:&error];
     
+    NSString *titleMessage;
+    NSString *message;
+    
     if([responseCode statusCode] != 200){
-        NSLog(urlWithParameters);
+        titleMessage = @"Error";
+        message = @"Error %@ en conexión con proveedor SMS.", [responseCode statusCode];
         //NSLog(@"Error getting %@, HTTP status code %i", @"http://200.31.80.34/Bolsa_Mensajes/AgroNet/CGI/ReceiverSMSFormulario.php", [responseCode statusCode]);
     }
     
-    NSLog([[NSString alloc] initWithData:oResponseData encoding:NSUTF8StringEncoding]);
+    titleMessage = @"Listo";
+    message = @"Mensaje enviado con éxito!";
+
     
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:titleMessage message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 /*

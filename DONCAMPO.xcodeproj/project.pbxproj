@@ -16,6 +16,7 @@
 		6338377A193B3EDC00838001 /* papers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383777193B3EDC00838001 /* papers.png */; };
 		6338377C193B3F8100838001 /* aprende.png in Resources */ = {isa = PBXBuildFile; fileRef = 6338377B193B3F8100838001 /* aprende.png */; };
 		6338377F193B5A7600838001 /* C4COrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338377E193B5A7600838001 /* C4COrderViewController.m */; };
+		63383781193B82FA00838001 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 63383780193B82FA00838001 /* login.png */; };
 		63D78A9D193A6AF40022E01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9C193A6AF40022E01B /* Foundation.framework */; };
 		63D78A9F193A6AF40022E01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78A9E193A6AF40022E01B /* CoreGraphics.framework */; };
 		63D78AA1193A6AF40022E01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D78AA0193A6AF40022E01B /* UIKit.framework */; };
@@ -56,6 +57,7 @@
 		6338377B193B3F8100838001 /* aprende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aprende.png; path = ../../Desktop/aprende.png; sourceTree = "<group>"; };
 		6338377D193B5A7600838001 /* C4COrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4COrderViewController.h; sourceTree = "<group>"; };
 		6338377E193B5A7600838001 /* C4COrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4COrderViewController.m; sourceTree = "<group>"; };
+		63383780193B82FA00838001 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = "../../Google Drive/DonCampo/login.png"; sourceTree = "<group>"; };
 		63D78A99193A6AF40022E01B /* DONCAMPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DONCAMPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D78A9C193A6AF40022E01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63D78A9E193A6AF40022E01B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,6 +108,7 @@
 		63D78A90193A6AF40022E01B = {
 			isa = PBXGroup;
 			children = (
+				63383780193B82FA00838001 /* login.png */,
 				6338377B193B3F8100838001 /* aprende.png */,
 				63383775193B3EDC00838001 /* box.png */,
 				63383776193B3EDC00838001 /* folder.png */,
@@ -274,6 +277,7 @@
 				63D78AAF193A6AF40022E01B /* Images.xcassets in Resources */,
 				63D78AD2193A6F9F0022E01B /* home_farmer2.png in Resources */,
 				63383774193B3E5400838001 /* calc.png in Resources */,
+				63383781193B82FA00838001 /* login.png in Resources */,
 				63D78ACE193A6DED0022E01B /* logo-preview.png in Resources */,
 				63383779193B3EDC00838001 /* folder.png in Resources */,
 			);
