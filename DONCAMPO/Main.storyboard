@@ -140,7 +140,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RDx-ig-aXR" kind="push" id="60N-ix-TkR"/>
+                                    <segue destination="RDx-ig-aXR" kind="push" id="YI9-Df-B1U"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login.png" translatesAutoresizingMaskIntoConstraints="NO" id="y2b-vK-ZaU">
@@ -177,7 +177,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5xo-iq-Zqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2612" y="2169"/>
+            <point key="canvasLocation" x="2638" y="1165"/>
         </scene>
         <!--Table View Controller - MIs pedidos-->
         <scene sceneID="ARM-jC-v2r">
@@ -864,7 +864,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wPO-uX-Vn2" kind="push" id="P5R-a0-ynF"/>
+                                    <segue destination="wPO-uX-Vn2" kind="push" id="UPC-zp-Oyw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPd-Pc-zhG">
@@ -974,7 +974,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbw-Yk-nDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3751" y="51"/>
+            <point key="canvasLocation" x="3209" y="33"/>
         </scene>
         <!--View Controller - Aprende-->
         <scene sceneID="Gj5-sN-Aoi">
